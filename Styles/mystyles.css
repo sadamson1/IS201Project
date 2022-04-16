@@ -1,0 +1,76 @@
+/*Samantha Adamson: last edited 4/15/22*/
+
+ .backcolor1 { 
+	background:  #bcdbdf; 
+    }
+	
+.backcolor2 { 
+	background: #40a8c4; 
+    }
+
+.backcolor3 { 
+	background: #235784; 
+    }
+
+.backcolor4 { 
+	background: #f7aa00;
+    }
+.text1{ 
+       color: #bcdbdf; 
+    }
+        
+.text2 { 
+       color: #40a8c4; 
+    }
+    
+.text3 { 
+        color: #235784; 
+    }
+    
+.text4 { color:  #f7aa00;}
+
+.bold{font-weight: bold;}
+
+.footer {
+	background-color: #235784;
+  }
+
+.homebackground {background-image: url(../Images/mountains.jpg);}
+
+.aboutmeback{background-color: white;}
+
+.italics{font-style:italic;}
+
+.center{margin: auto;
+    display: block;}
+
+.videopad{margin-top: -10px !important;}
+
+.menu{
+    width: 28px;
+  height: 4px;
+  background-color: #f7aa00;
+  margin: 5px 0;
+}
+
+/*thank you https://www.w3schools.com/howto/howto_css_menu_icon.asp*/
+.jumptext{
+    font-size: 26.894pt !important;
+    font-weight: 200 !important;
+}
+
+.jumplink{
+    color: white !important;
+}
+
+.top{
+    margin: 50px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+

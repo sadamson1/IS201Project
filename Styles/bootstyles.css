@@ -1,0 +1,82 @@
+
+body{
+   
+    font-family:Arial, Helvetica, sans-serif;
+}
+.header{
+    top: 0px; /*For the header and footer I did do the whole 5 px thing to leave space but I like it as a banner all the way across better.*/
+    left: 0px;
+    right: 0px;
+    height: 100px;
+    background-color: #235784;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    border: black;
+    z-index: 1;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 15px;
+  
+}
+.main{
+    top:120px;
+    bottom: 65px;
+    right: 5px;
+    left: 5px;
+    padding: 5px;
+
+}
+.footer{
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 30px;
+    background-color: #235784;
+    color: #f7aa00;
+    font-size: 15px;
+    padding: 5px;
+    border: black;
+    margin-top: auto;
+    z-index: 1;
+    text-align: center;
+    padding-top: 25px;
+    position: fixed;
+
+}
+
+.common{ position: absolute;}
+
+.tabwidth{
+    width: 40%;
+}
+
+p{
+    background-color: #bcdbdf;
+    font-weight: bold;
+    text-align: center;
+}
+
+.blankspace{
+    background-color: white;
+}
+
+a{color:white;
+    font-size: 15px;
+    font-weight: normal;}
+
+a:hover{text-decoration:  none;
+         } 
+
+.title{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container{
+    min-height: 100vh;
+    overflow: hidden;
+    display: block;
+    position:relative;
+    padding-bottom: 100px;
+}
